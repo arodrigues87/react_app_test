@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Container,
     Row,
-    Col,
-    Jumbotron,
-    Button
+    Col
 } from 'reactstrap';
 
 import Header from './components/Header';
@@ -28,7 +18,7 @@ class App extends Component {
                     <Col xs="2">
                         <Menu></Menu>
                     </Col>
-                    <Col xs="10">conteudo pagina inicial</Col>
+                    <Col xs="10">pagina 1</Col>
                 </Row>
                 <Footer></Footer>
             </div>
