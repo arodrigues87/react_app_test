@@ -5,7 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Teste1 from './Pages/test1';
+import CharactersList from './Pages/CharactersList';
+import Character from './Pages/Character';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -13,7 +14,8 @@ ReactDOM.render(
 <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={App} />
-            <Route path="/test1" component={Teste1} />
+            <Route path="/characterList" component={CharactersList} />
+            <Route path="/character/:id" component={Character} />
         </Switch>
     </ BrowserRouter>, document.getElementById('root'));
 

@@ -11,7 +11,7 @@ class Header extends Component {
             <div>
                 <Row>
                     <Col>
-                        footer content
+                        
                     </Col>
                 </Row>
             </div>

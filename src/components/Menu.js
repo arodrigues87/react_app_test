@@ -30,7 +30,7 @@ class Menu extends Component {
                                 <Link to="/">Home</Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="/test1">Teste 1</Link>
+                                <Link to="/characterList">Personagens</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>
